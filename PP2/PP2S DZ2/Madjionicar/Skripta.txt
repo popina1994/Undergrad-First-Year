@@ -1,0 +1,5 @@
+1) memeOld ubaceno da ako se menja vrednost meme[memeWeigth[cnt]] (usput), i uracunace broj resenja jos i taj slucaj (primer 1)
+
+2) weigth reda radi, i meme reda radi
+
+3) memeWeigth mora jer ako se obrisu 

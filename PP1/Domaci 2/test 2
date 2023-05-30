@@ -1,0 +1,88 @@
+/* prvi test primer */
+■ Free Pascal IDE Version 1.0.12 [2013/02/12]
+■ Compiler Version 2.6.2
+■ GDB Version GDB 7.2
+■ Using configuration files from: C:\FPC\2.6.2\bin\i386-win32\
+Running "c:\fpc\2.6.2\bin\i386-win32\dz2_mod.exe "
+unesi broj elemenata
+4
+100
+101
+102
+103
+kolicnike je: 0.83
+elementi koji ispunjavanju:
+element:102indeks:3
+element:103indeks:4
+broj elemenata niza je:2
+slede elementi 101
+102
+
+unesi broj elemenata niza
+-1
+
+/* drugi test primer */
+■ Free Pascal IDE Version 1.0.12 [2013/02/12]
+■ Compiler Version 2.6.2
+■ GDB Version GDB 7.2
+■ Using configuration files from: C:\FPC\2.6.2\bin\i386-win32\
+Running "c:\fpc\2.6.2\bin\i386-win32\dz2_mod.exe "
+unesi broj elemenata
+5
+1
+1
+1
+1
+1
+kolicnike je: 1.00
+elementi koji ispunjavanju:
+svi elementi su izbaceni
+unesi broj elemenata niza
+5
+1
+1
+2
+2
+2
+kolicnike je: 1.60
+elementi koji ispunjavanju:
+element:2indeks:3
+element:2indeks:4
+element:2indeks:5
+svi elementi su izbaceni
+unesi broj elemenata niza
+0
+
+/* treci test primer */
+■ Free Pascal IDE Version 1.0.12 [2013/02/12]
+■ Compiler Version 2.6.2
+■ GDB Version GDB 7.2
+■ Using configuration files from: C:\FPC\2.6.2\bin\i386-win32\
+Running "c:\fpc\2.6.2\bin\i386-win32\dz2_mod.exe "
+unesi broj elemenata
+7
+-32767
+3
+2
+1
+4
+5
+791
+kolicnike je: 4.38
+elementi koji ispunjavanju:
+element:32767indeks:1
+element:5indeks:6
+element:791indeks:7
+broj elemenata niza je:5
+slede elementi 3
+1
+2
+4
+5
+
+
+unesi broj elemenata niza
+
+30001
+
+

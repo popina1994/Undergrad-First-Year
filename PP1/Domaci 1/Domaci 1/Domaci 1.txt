@@ -1,0 +1,48 @@
+                  b = 100
+                  a = 133
+                  adra = 1
+                  adrb = 2
+                  n = 3
+                  t = 4
+                  g = 5
+                  i = 6
+                  petlja = 10
+                  petljapost = 21
+                  petljaisp = 39
+                  preskok = 43
+                  kraj = 51
+                  izr = 52
+    8: 0408 0021  MOV t, 33
+   10: 7301       petlja: IN n
+   11: 6038 0033  BGT 0, n, kraj
+   13: 5038 0033  BEQ 0, n, kraj
+   15: 0108 0085  MOV adra, #a
+   17: 7983       IN (adra), n
+   18: 0640       MOV i, t
+   19: 0208 0064  MOV adrb, #b
+   21: 0A08 0000  petljapost: MOV (adrb), 0
+   23: 9220 0001  ADD adrb, adrb, 1
+   25: A660 0001  SUB i, i, 1
+   27: 6608 0015  BGT i, 0, petljapost
+   29: 0208 0064  MOV adrb, #b
+   31: 0508 0020  MOV g, 32
+   33: D000 0034  JSR izr
+   35: 0208 0064  MOV adrb, #b
+   37: 0608 0000  MOV i, 0
+   39: 50A8 002B  petljaisp: BEQ 0, (adrb), preskok
+   41: 8A01       OUT (adrb)
+   42: 8601       OUT i
+   43: 9660 0001  preskok: ADD i, i, 1
+   45: 9220 0001  ADD adrb, adrb, 1
+   47: 6468 0027  BGT t, i, petljaisp
+   49: 5448 000A  BEQ t, t, petlja
+   51: F000       kraj: STOP 
+   52: 6958 0033  izr: BGT (adra), g, kraj
+   54: 6098 0033  BGT 0, (adra), kraj
+   56: 0208 0064  MOV adrb, #b
+   58: 1229       ADD adrb, adrb, (adra)
+   59: 9AA0 0001  ADD (adrb), (adrb), 1
+   61: 9110 0001  ADD adra, adra, 1
+   63: A330 0001  SUB n, n, 1
+   65: 6308 0034  BGT n, 0, izr
+   67: E000       RTS 

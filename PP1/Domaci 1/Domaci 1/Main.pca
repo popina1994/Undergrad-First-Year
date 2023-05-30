@@ -1,0 +1,44 @@
+﻿	B = 100 ; niz ima samo brojeve od 0 do 32
+	A = 133
+	adrA = 1
+	adrB = 2
+	N = 3; broj elemenata
+	T = 4; pomocna promenljiva
+	G = 5
+	I = 6
+	ORG 8
+	MOV T, 33
+PETLJA:IN N
+	BGT 0, N, KRAJ
+	BEQ 0, N, KRAJ
+	MOV adrA, #A; 				postavi poziciju prvog elementa
+	IN (adrA), N
+	MOV I, T
+	MOV adrB, #B
+PETLJAPOST:MOV (adrB), 0
+	ADD adrB, adrB, 1
+	SUB I, I, 1
+	BGT I, 0, PETLJAPOST; 		kraj petlje
+	MOV adrB, #B;				 postavi ponovo na pocetnu
+	MOV G, 32
+	JSR IZR
+	MOV adrB, #B
+	MOV I, 0
+PETLJAISP:BEQ 0, (adrB), PRESKOK
+	OUT (adrB)
+	OUT I
+PRESKOK:ADD I, I, 1
+	ADD adrB, adrB, 1
+	BGT T, I, PETLJAISP
+	BEQ T, T, PETLJA
+KRAJ: STOP
+IZR:BGT (adrA), G, KRAJ ;		granicni slucajevi
+	BGT 0, (adrA), KRAJ		;...
+	MOV adrB, #B		
+	ADD adrB, adrB, (adrA)
+	ADD (adrB), (adrB), 1
+	ADD adrA, adrA, 1
+	SUB N, N, 1
+	BGT N, 0, IZR
+	RTS
+	

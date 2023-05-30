@@ -1,0 +1,69 @@
+! Control Line A: IGoVSoDS File Type Indicator = 003      ! do not edit this or any other line
+[---------------
+[Counters(SysClockCUR, SysClockIDX, SysClock_NumOfClk, *0, Clock_cur, Module_cur, Module_ID_show, Screen_cur, Screen_ID_show, Object_cur, Signal_cur, Line_cur, LineSS_cur, ScrObj_cur, ObjSig_cur, SpMemory_cur, SpSM_cur, T_LabelGP_cur, T_Trigg_cur, T_TriggClk_cur, T_SigGraph_Sig_cur, T_SigGraph_Clock_cur)]
+[---------------
+1|1|0|0|1|1|1|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0
+[---------------
+[T_SysClock(SysClock)]
+[---------------
+1|-1
+[---------------
+[T_Clock(Clock, Naziv, ID_T_SysClock)]
+[---------------
+1|Main Clock|1
+[---------------
+[T_Module(Naziv, ID_T_Module, ID_T_Clock, TreeHW, lblObjectInd, SymbolTitle, OpenMode, ScaleWidth, NonPortConn, locDesc, locNote, locMisc)]
+[---------------
+Main Module|0|1|1|1|Symbol|0|100|
+
+
+
+[---------------
+[T_Screen(Naziv, ID_T_Scr, ID_T_Module, Nivo, Object_broj, Line_broj)]
+[---------------
+Main Module Form|0|1|1|0|0
+[---------------
+[T_Object(Naziv, ID_T_Module, ID_T_TObj, ID_Ti_ObjSig_UL_od, ID_Ti_ObjSig_IZL_od , Stanje_In, Stanje_Out, Stanje_Out_ps, Grupa, Nivo, ExpandConn, Desc, ObjNotSign, USimul)]
+[---------------
+[---------------
+[T_Signal(SNaziv, Naziv, OrigSNaziv, Bitova, Stanje, ID_T_Obj_od, ID_T_Conn_od, Grupa, Nivo, TipSignala, PortTip, PortNaziv, *locCloneSig, PartCloneIDs_T_Sig, PartCloneLines, ImplicitClone, NPMConnSpotID, LinkLineIDX, SigNotSign, USimul, InterClock)]
+[---------------
+[---------------
+[T_Line(Tip_od, Tip_do, OLV_od, OLV_do, OLVpoz_od, OLVpoz_do, ID_T_Sig, LabSigNameX, LabSigNameY, LabSigNameTip, Putanja, LabSigNamePoz, ID_T_Scr, ConnBUS)]
+[---------------
+[---------------
+[T_LineSS(ID_T_Line, IDX_LabSigState, LabSigTip, LabSigStateX, LabSigStateY, RbrLine)]
+[---------------
+[---------------
+[Ti_ScrObj(ID_T_Scr, ID_T_Obj, Height, Width, Top, Left, Ugao, ImageIDX)]
+[---------------
+[---------------
+[Ti_ObjSig(ID_T_Obj, ID_T_Conn, ID_T_Signal)]
+[---------------
+[---------------
+[T_SpMemory(ADRlines, DATAlines, slogID_T_Obj, SimulClockPropagation)]
+[---------------
+[---------------
+[T_SpMemory.SpMemoryConteiner()]
+[---------------
+[---------------
+[T_SpSM(ID_Ti_ScrObj, BrInConn, BrOutConn, NazivTip, PortNaziv, PortSignal, PortZauzet)]
+[---------------
+[---------------
+[T_LabelGP(ID_T_Scr, *fn_RegSettOut(LabFontSize), LabFontIUB, LabGPLeft, LabGPTop, IDXlblGP, Caption)]
+[---------------
+[---------------
+[T_Trigg(EventID, ID_T_Sig, PrevState, EventValue)]
+[---------------
+[---------------
+[T_TriggClk(ID_T_Clock|ID_T_Clock|...|ID_T_Clock)]
+[---------------
+
+[---------------
+[T_SigGraph_SigIDX(ID_T_Sig|ID_T_Sig|...|ID_T_Sig)]
+[---------------
+
+[---------------
+[T_SigGraphClk(ID_T_Clock|ID_T_Clock|...|ID_T_Clock)]
+[---------------
+

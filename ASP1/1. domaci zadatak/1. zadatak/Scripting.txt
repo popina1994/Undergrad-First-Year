@@ -1,0 +1,7 @@
+1) Strukture Node, PtNode
+2) Procedure 
+3)	push(poc, kraj) - stavlja element na stek
+4)	pop(poc, kraj) - vraca element i uklanja sa vrha
+5)	top(poc, kraj) - vraca vrednost sa vrha
+6)	num(poc, kraj) - vraca broj elemenata steka
+7)	maxCap(poc, kraj) - vraca maksimalni kapacitet :/

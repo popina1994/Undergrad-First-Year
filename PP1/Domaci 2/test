@@ -1,0 +1,56 @@
+/* prvi test primer */
+4
+100
+101
+102
+103
+-1
+unesite broj elemenata
+4
+100
+101
+102
+103
+kolicinik je: 0.83
+102 3
+103 4
+unesite broj elemenata:
+-1
+/* drugi test primer */
+unesite broj elemenata
+5
+1
+1
+1
+1
+1
+kolicinik je: 1.00
+unesite broj elemenata:
+5
+1
+1
+2
+2
+10
+kolicinik je: 1.17
+2 3
+2 4
+unesite broj elemenata:
+0
+
+/* treci test primer */
+unesite broj elemenata
+7
+-32767
+3
+2
+1
+4
+5
+791
+kolicinik je: 4.38
+-32767 1
+5 6
+791 7
+unesite broj elemenata:
+30001

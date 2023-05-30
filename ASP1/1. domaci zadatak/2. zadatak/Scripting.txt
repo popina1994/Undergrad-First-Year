@@ -1,0 +1,21 @@
+Strukture:
+Matrica
+*Staticki niz koji ce predstavljati trougaone matrice u memoriji
+:( Steta, taman sam hteo da se igram sa alociranjem dinamicke memorije, vise srece drugi put :(
+*Broj kolona i vrsta
+*Podrazumevana vrednost
+*vektor 
+
+Procedure:
+1) void MakeMatrix(int *x, int numRow, int numCol) 
+pravi niz koji sadrzi datu trougaonu matricu datog broja kolona i vrsta
+
+2) int Element(int *x, int numRow, int numCol)
+Dohvata element iz trougaone matrice
+
+3) void SetElement(int *x, int numRow, int numCol)
+Postavlja element
+
+4)int NumberOfElements(int *x, int numRow, int numCol)
+Broj elemenata trougaone matrice
+

@@ -1,0 +1,177 @@
+Први:
+33
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32
+-1
+
+Messy Lab picoComputer Virtual Machine, Version 1.0
+Copyright (c) 2010 by Milos Andjelkovic
+
+An integer value for location #3 (other values cause interrupt): 33
+An integer value for location #133 (other values cause interrupt): 0
+An integer value for location #134 (other values cause interrupt): 1
+An integer value for location #135 (other values cause interrupt): 2
+An integer value for location #136 (other values cause interrupt): 3
+An integer value for location #137 (other values cause interrupt): 4
+An integer value for location #138 (other values cause interrupt): 5
+An integer value for location #139 (other values cause interrupt): 6
+An integer value for location #140 (other values cause interrupt): 7
+An integer value for location #141 (other values cause interrupt): 8
+An integer value for location #142 (other values cause interrupt): 9
+An integer value for location #143 (other values cause interrupt): 10
+An integer value for location #144 (other values cause interrupt): 11
+An integer value for location #145 (other values cause interrupt): 12
+An integer value for location #146 (other values cause interrupt): 13
+An integer value for location #147 (other values cause interrupt): 14
+An integer value for location #148 (other values cause interrupt): 15
+An integer value for location #149 (other values cause interrupt): 16
+An integer value for location #150 (other values cause interrupt): 17
+An integer value for location #151 (other values cause interrupt): 18
+An integer value for location #152 (other values cause interrupt): 19
+An integer value for location #153 (other values cause interrupt): 20
+An integer value for location #154 (other values cause interrupt): 21
+An integer value for location #155 (other values cause interrupt): 22
+An integer value for location #156 (other values cause interrupt): 23
+An integer value for location #157 (other values cause interrupt): 24
+An integer value for location #158 (other values cause interrupt): 25
+An integer value for location #159 (other values cause interrupt): 26
+An integer value for location #160 (other values cause interrupt): 27
+An integer value for location #161 (other values cause interrupt): 28
+An integer value for location #162 (other values cause interrupt): 29
+An integer value for location #163 (other values cause interrupt): 30
+An integer value for location #164 (other values cause interrupt): 31
+An integer value for location #165 (other values cause interrupt): 32
+The contents of memory location #100 = 1
+The contents of memory location #6 = 0
+The contents of memory location #101 = 1
+The contents of memory location #6 = 1
+The contents of memory location #102 = 1
+The contents of memory location #6 = 2
+The contents of memory location #103 = 1
+The contents of memory location #6 = 3
+The contents of memory location #104 = 1
+The contents of memory location #6 = 4
+The contents of memory location #105 = 1
+The contents of memory location #6 = 5
+The contents of memory location #106 = 1
+The contents of memory location #6 = 6
+The contents of memory location #107 = 1
+The contents of memory location #6 = 7
+The contents of memory location #108 = 1
+The contents of memory location #6 = 8
+The contents of memory location #109 = 1
+The contents of memory location #6 = 9
+The contents of memory location #110 = 1
+The contents of memory location #6 = 10
+The contents of memory location #111 = 1
+The contents of memory location #6 = 11
+The contents of memory location #112 = 1
+The contents of memory location #6 = 12
+The contents of memory location #113 = 1
+The contents of memory location #6 = 13
+The contents of memory location #114 = 1
+The contents of memory location #6 = 14
+The contents of memory location #115 = 1
+The contents of memory location #6 = 15
+The contents of memory location #116 = 1
+The contents of memory location #6 = 16
+The contents of memory location #117 = 1
+The contents of memory location #6 = 17
+The contents of memory location #118 = 1
+The contents of memory location #6 = 18
+The contents of memory location #119 = 1
+The contents of memory location #6 = 19
+The contents of memory location #120 = 1
+The contents of memory location #6 = 20
+The contents of memory location #121 = 1
+The contents of memory location #6 = 21
+The contents of memory location #122 = 1
+The contents of memory location #6 = 22
+The contents of memory location #123 = 1
+The contents of memory location #6 = 23
+The contents of memory location #124 = 1
+The contents of memory location #6 = 24
+The contents of memory location #125 = 1
+The contents of memory location #6 = 25
+The contents of memory location #126 = 1
+The contents of memory location #6 = 26
+The contents of memory location #127 = 1
+The contents of memory location #6 = 27
+The contents of memory location #128 = 1
+The contents of memory location #6 = 28
+The contents of memory location #129 = 1
+The contents of memory location #6 = 29
+The contents of memory location #130 = 1
+The contents of memory location #6 = 30
+The contents of memory location #131 = 1
+The contents of memory location #6 = 31
+The contents of memory location #132 = 1
+The contents of memory location #6 = 32
+An integer value for location #3 (other values cause interrupt): -1
+Address: 51, Instruction: F000, Program exited normally. (E0000)
+
+Press Enter to exit...
+
+
+
+Други:
+1
+1
+2
+1 2
+2
+1 3
+-1
+
+Messy Lab picoComputer Virtual Machine, Version 1.0
+Copyright (c) 2010 by Milos Andjelkovic
+
+An integer value for location #3 (other values cause interrupt): 1
+An integer value for location #133 (other values cause interrupt): 1
+The contents of memory location #101 = 1
+The contents of memory location #6 = 1
+An integer value for location #3 (other values cause interrupt): 2
+An integer value for location #133 (other values cause interrupt): 1
+An integer value for location #134 (other values cause interrupt): 2
+The contents of memory location #101 = 1
+The contents of memory location #6 = 1
+The contents of memory location #102 = 1
+The contents of memory location #6 = 2
+An integer value for location #3 (other values cause interrupt): 2
+An integer value for location #133 (other values cause interrupt): 1
+An integer value for location #134 (other values cause interrupt): 3
+The contents of memory location #101 = 1
+The contents of memory location #6 = 1
+The contents of memory location #103 = 1
+The contents of memory location #6 = 3
+An integer value for location #3 (other values cause interrupt): -1
+Address: 51, Instruction: F000, Program exited normally. (E0000)
+
+Press Enter to exit...
+
+
+
+Трећи:
+2
+1 2
+3
+1 2 -1
+
+Messy Lab picoComputer Virtual Machine, Version 1.0
+Copyright (c) 2010 by Milos Andjelkovic
+
+An integer value for location #3 (other values cause interrupt): 2
+An integer value for location #133 (other values cause interrupt): 1
+An integer value for location #134 (other values cause interrupt): 2
+The contents of memory location #101 = 1
+The contents of memory location #6 = 1
+The contents of memory location #102 = 1
+The contents of memory location #6 = 2
+An integer value for location #3 (other values cause interrupt): 3
+An integer value for location #133 (other values cause interrupt): 1
+An integer value for location #134 (other values cause interrupt): 2
+An integer value for location #135 (other values cause interrupt): 33
+Address: 51, Instruction: F000, Program exited normally. (E0000)
+
+Press Enter to exit...
+
+
