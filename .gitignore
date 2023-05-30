@@ -437,3 +437,8 @@ FodyWeavers.xsd
 # generated directories
 bin/
 obj/
+
+*.sln
+*.suo
+*.vcxproj
+*.vcxproj.filters
